@@ -95,7 +95,6 @@
   <li><code>dataset.py</code> - Defines the SRDataset PyTorch dataloader, handling Bicubic downsampling and tensor transformations.</li>
   <li><code>train.ipynb</code> - The primary training pipeline (includes L1 pre-training and GAN training phases).</li>
   <li><code>test.ipynb</code> - Inference script for upscaling custom images.</li>
-  <li><code>downsample.py</code> - Utility script for preprocessing and intentionally degrading real-world photos for testing.</li>
 </ul>
 
 <hr>
