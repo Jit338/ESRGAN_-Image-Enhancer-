@@ -34,7 +34,24 @@
     <td align="center"><img src="64_to_256/003g.png" width="256" alt="SR Flower"></td>
   </tr>
 </table>
-
+<table align="center">
+  <tr>
+    <th style="text-align:center;">Low Resolution Input (256x256)</th>
+    <th style="text-align:center;">ESRGAN Output (1024x1024)</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="256_to_1024/001.png" width="512" alt="LR Leaf"></td>
+    <td align="center"><img src="256_to_1024/001g.png" width="512" alt="SR Leaf"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="256_to_1024/002.png" width="512" alt="LR Bird"></td>
+    <td align="center"><img src="256_to_1024/002g.png" width="512" alt="SR Bird"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="256_to_1024/003.png" width="512" alt="LR Flower"></td>
+    <td align="center"><img src="256_to_1024/003g.png" width="512" alt="SR Flower"></td>
+  </tr>
+</table>
 <hr>
 
 <h2>🧠 Model Architecture</h2>
