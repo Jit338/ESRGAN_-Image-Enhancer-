@@ -22,16 +22,16 @@
     <th style="text-align:center;">ESRGAN Output (256x256)</th>
   </tr>
   <tr>
-    <td align="center"><img src="Screenshot 2026-07-02 132321.png" width="256" alt="LR Leaf"></td>
-    <td align="center"><img src="Screenshot 2026-07-02 132329.jpg" width="256" alt="SR Leaf"></td>
+    <td align="center"><img src="64_to_256/001.png" width="256" alt="LR Leaf"></td>
+    <td align="center"><img src="64_to_256/001g.png" width="256" alt="SR Leaf"></td>
   </tr>
   <tr>
-    <td align="center"><img src="Screenshot 2026-07-02 132416.png" width="256" alt="LR Bird"></td>
-    <td align="center"><img src="Screenshot 2026-07-02 132424.jpg" width="256" alt="SR Bird"></td>
+    <td align="center"><img src="64_to_256/002.png" width="256" alt="LR Bird"></td>
+    <td align="center"><img src="64_to_256/002g.png" width="256" alt="SR Bird"></td>
   </tr>
   <tr>
-    <td align="center"><img src="Screenshot 2026-07-02 132453.png" width="256" alt="LR Flower"></td>
-    <td align="center"><img src="Screenshot 2026-07-02 132502.jpg" width="256" alt="SR Flower"></td>
+    <td align="center"><img src="64_to_256/003.png" width="256" alt="LR Flower"></td>
+    <td align="center"><img src="64_to_256/003g.png" width="256" alt="SR Flower"></td>
   </tr>
 </table>
 
