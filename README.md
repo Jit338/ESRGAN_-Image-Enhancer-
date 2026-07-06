@@ -18,8 +18,8 @@
 
 <table align="center">
   <tr>
-    <th style="text-align:center;">Low Resolution Input (64x64)</th>
-    <th style="text-align:center;">ESRGAN Output (256x256)</th>
+    <th style="text-align:center;">Low Resolution Input(64x64)</th>
+    <th style="text-align:center;">ESRGAN Output (model 1)(256x256)</th>
   </tr>
   <tr>
     <td align="center"><img src="64_to_256/001.png" width="256" alt="LR Leaf"></td>
@@ -37,7 +37,7 @@
 <table align="center">
   <tr>
     <th style="text-align:center;">Low Resolution Input (256x256)</th>
-    <th style="text-align:center;">ESRGAN Output (1024x1024)</th>
+    <th style="text-align:center;">ESRGAN Output (model 1)(1024x1024)</th>
   </tr>
   <tr>
     <td align="center"><img src="256_to_1024/001.png" width="512" alt="LR Leaf"></td>
@@ -53,7 +53,28 @@
   </tr>
 </table>
 <hr>
-
+<table align="center">
+  <tr>
+    <th style="text-align:center;">Input</th>
+    <th style="text-align:center;">ESRGAN Output (model 2)(256x256)</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="model2_result/04.jpg" width="512" alt="LR Leaf"></td>
+    <td align="center"><img src="model2_result/04g.png" width="512" alt="SR Leaf"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="model2_result/01.png" width="512" alt="LR Leaf"></td>
+    <td align="center"><img src="model2_result/01g.png" width="512" alt="SR Leaf"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="model2_result/02.png" width="512" alt="LR Bird"></td>
+    <td align="center"><img src="model2_result/02g.png" width="512" alt="SR Bird"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="model2_result/05.jpg" width="512" alt="LR Flower"></td>
+    <td align="center"><img src="model2_result/05g.png" width="512" alt="SR Flower"></td>
+  </tr>
+</table>
 <h2>🧠 Model Architecture</h2>
 
 <p>This implementation faithfully reproduces the core improvements introduced by the official ESRGAN paper over standard SRGANs.</p>
