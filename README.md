@@ -146,12 +146,10 @@ pip install -r requirements.txt
 <p>This repository is specifically optimized to run efficiently on consumer-grade hardware like the NVIDIA RTX 3050 (6GB). To avoid CUDA Out-of-Memory (OOM) errors, the dataloader is strictly balanced in <code>train.ipynb</code>:</p>
 
 <ul>
-  <li><strong>Recommended setting:</strong> <code>patch_size=128</code> with <code>batch_size=4</code></li>
-  <li><strong>For larger patches:</strong> <code>patch_size=256</code> with <code>batch_size=1</code> or <code>2</code></li>
+  <li><strong>Recommended setting:</strong> <code>patch_size=128</code> with <code>batch_size=8</code></li>
+  <li><strong>For larger patches:</strong> <code>patch_size=256</code> with <code>batch_size=4</code></li>
 </ul>
 
 <hr>
 
-<h2>📝 License & Author</h2>
-<p>Created by <strong>Jeet Mondal</strong>.</p>
-<p>This project is open-source and available under the MIT License.</p>
+<p>While these models may not be perfect, building this project was an incredible learning experience. It deepened my understanding of complex algorithms and highlighted the critical importance of high-quality data. I am leaving this project highly motivated to explore new concepts and implement even more advanced architectures. On to the next challenge!</p>
